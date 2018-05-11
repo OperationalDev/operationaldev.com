@@ -1,0 +1,33 @@
+baseURL = "https://operationaldev.com/"
+languageCode = "en-us"
+title = "Operational Dev"
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "home of automationeering"
+  logo = "img/avatar-icon-trooper.png"
+  favicon = "img/avatar-icon-trooper.png"
+  dateFormat = "January 2, 2006"
+
+[Author]
+  name = "Marcus 'bob' Talken"
+  website = "https://operationaldev.com/"
+  email = "operationaldev@gmail.com"
+  github = "operationaldev"
+  linkedin = "marcus-talken"
+  twitter = "operationaldev"
+
+[[menu.main]]
+    name = "Posts"
+    url = "post/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
