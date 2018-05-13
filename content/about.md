@@ -7,7 +7,7 @@ draft: false
 Bob
 ---
 
-Automation Engineer more on the Ops side of things that enjoys solving infrastructure deployment problems with Infrastructure as Code and pudding cups. He knows lots about Chef, Openstack and Infrastructure in general and a little bit about everything else. Will do any form of automation for a free Tshirt.
+Automation Engineer more on the Ops side of things that enjoys solving infrastructure deployment problems with Infrastructure as Code and pudding cups. He knows lots about Chef, Openstack and Infrastructure in general and a little bit about everything else. Will do any form of automation for a free T-shirt.
 
 Steve
 -----
