@@ -5,11 +5,11 @@ tags: ["general"]
 draft: false
 ---
 
-Welcome to operationaldev.com! For the longest time I've wanted to create a blog but in the words of Top Gear, I've been ambitious but rubbish. Hopefully this attempt will go better. Also this time I've got a little help from Steve.
+Welcome to operationaldev.com! For the longest time I've wanted to create a blog but in the words of Top Gear, I've been ambitious but rubbish. Hopefully this attempt will go better. Also this time I've got a little help from my good friend Steve.
 
-By day, I’m an engineer tasked with automating infrastructure builds and deployments as well as building tooling to the lives of others easier. By night, I’m an engineer trying to learn more about automating and building stuff.
+By day, I’m an engineer tasked with automating infrastructure builds and deployments as well as building tooling to make the lives of others easier (Ed: And sharing your winnng personality of course). By night, I’m an engineer trying to learn more about automating and building stuff. Kinda lucky in that sense that my day job is also something I really enjoy doing.
 
-Along with the tooling and platforms I've built and run, I’ve also written a bunch of chef cookbooks (Ed: written: 50+, published/open sourced: 0) and a few terraform modules which I will hopefully be open sourcing and making available for others to use and learn from.
+Every so often, we will be posting about various technologies we use and how we use them. These will range from Config Management/Infrastructure tools like Chef and Terraform to hosting platforms like Kubernetes and Openstack. 
 
 
 Bob
