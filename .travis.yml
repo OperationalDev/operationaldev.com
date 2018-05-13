@@ -2,13 +2,11 @@ language: python
 python:
   - "3.5"
 cache: pip
-addons:
-  apt:
-    packages:
-      - hugo
 install:
   # Install any dependencies required for building your site here.
   # `awscli` is required for invalidation of CloudFront distributions.
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
   - rm -rf public || exit 0
   - pip install awscli
 script:
