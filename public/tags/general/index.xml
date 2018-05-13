@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Operational Dev</title>
+    <link>https://operationaldev.com/tags/general/</link>
+    <description>Recent content in General on Operational Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>operationaldev@gmail.com (Automationeering)</managingEditor>
+    <webMaster>operationaldev@gmail.com (Automationeering)</webMaster>
+    <lastBuildDate>Wed, 09 May 2018 15:20:04 +0200</lastBuildDate>
+    
+	<atom:link href="https://operationaldev.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to Operational Dev</title>
+      <link>https://operationaldev.com/post/welcome/</link>
+      <pubDate>Wed, 09 May 2018 15:20:04 +0200</pubDate>
+      <author>operationaldev@gmail.com (Automationeering)</author>
+      <guid>https://operationaldev.com/post/welcome/</guid>
+      <description>Welcome to operationaldev.com! For the longest time I&amp;rsquo;ve wanted to create a blog but in the words of Top Gear, I&amp;rsquo;ve been ambitious but rubbish. Hopefully this attempt will go better. Also this time I&amp;rsquo;ve got a little help from Steve.
+By day, I’m an engineer tasked with automating infrastructure builds and deployments as well as building tooling to the lives of others easier. By night, I’m an engineer trying to learn more about automating and building stuff.</description>
+    </item>
+    
+  </channel>
+</rss>

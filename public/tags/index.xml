@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Operational Dev | Automationeering</title>
-    <link>http://operationaldev.com/tags/</link>
-    <description>Recent content in Tags on Operational Dev | Automationeering</description>
+    <title>Tags on Operational Dev</title>
+    <link>https://operationaldev.com/tags/</link>
+    <description>Recent content in Tags on Operational Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>operationaldev@gmail.com (Automationeering)</managingEditor>
+    <webMaster>operationaldev@gmail.com (Automationeering)</webMaster>
+    <lastBuildDate>Wed, 09 May 2018 15:20:04 +0200</lastBuildDate>
     
-	<atom:link href="http://operationaldev.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://operationaldev.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>General</title>
+      <link>https://operationaldev.com/tags/general/</link>
+      <pubDate>Wed, 09 May 2018 15:20:04 +0200</pubDate>
+      <author>operationaldev@gmail.com (Automationeering)</author>
+      <guid>https://operationaldev.com/tags/general/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

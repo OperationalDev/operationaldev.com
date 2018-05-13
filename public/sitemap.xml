@@ -3,17 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://operationaldev.com/categories/</loc>
+    <loc>https://operationaldev.com/about/</loc>
+    <lastmod>2018-05-09T15:50:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/post/welcome/</loc>
+    <lastmod>2018-05-09T15:20:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://operationaldev.com/</loc>
+    <loc>https://operationaldev.com/tags/general/</loc>
+    <lastmod>2018-05-09T15:20:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://operationaldev.com/tags/</loc>
+    <loc>https://operationaldev.com/</loc>
+    <lastmod>2018-05-09T15:50:12+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/post/</loc>
+    <lastmod>2018-05-09T15:20:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/</loc>
+    <lastmod>2018-05-09T15:20:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   

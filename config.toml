@@ -10,11 +10,10 @@ theme = "beautifulhugo"
   dateFormat = "January 2, 2006"
 
 [Author]
-  name = "Marcus 'bob' Talken"
+  name = "Automationeering"
   website = "https://operationaldev.com/"
   email = "operationaldev@gmail.com"
   github = "operationaldev"
-  linkedin = "marcus-talken"
   twitter = "operationaldev"
 
 [[menu.main]]
@@ -24,7 +23,7 @@ theme = "beautifulhugo"
 
 [[menu.main]]
     name = "About"
-    url = "about"
+    url = "about/"
     weight = 3
 
 [[menu.main]]

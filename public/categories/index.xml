@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Operational Dev | Automationeering</title>
-    <link>http://operationaldev.com/categories/</link>
-    <description>Recent content in Categories on Operational Dev | Automationeering</description>
+    <title>Categories on Operational Dev</title>
+    <link>https://operationaldev.com/categories/</link>
+    <description>Recent content in Categories on Operational Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>operationaldev@gmail.com (Automationeering)</managingEditor>
+    <webMaster>operationaldev@gmail.com (Automationeering)</webMaster>
     
-	<atom:link href="http://operationaldev.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://operationaldev.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
