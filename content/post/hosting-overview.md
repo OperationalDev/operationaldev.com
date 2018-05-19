@@ -1,6 +1,7 @@
 ---
 title: "How we build and host Operational Dev"
 date: 2018-05-13T16:00:17+02:00
+tags: ["hosting","hugo","hugoio","travis","terraform","github","aws"]
 draft: false
 ---
 

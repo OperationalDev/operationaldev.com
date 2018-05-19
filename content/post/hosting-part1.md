@@ -1,6 +1,7 @@
 ---
 title: "Hosting Operational Dev.com - Part 1"
 date: 2018-05-18T09:00:17+02:00
+tags: ["hosting","hugo","hugoio"]
 draft: false
 ---
 
