@@ -1,6 +1,6 @@
 ---
 title: "Hosting Operational Dev.com - Part 1"
-date: 2018-05-19T09:00:17+02:00
+date: 2018-05-18T09:00:17+02:00
 draft: false
 ---
 
