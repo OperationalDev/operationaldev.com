@@ -1,51 +1,69 @@
 ---
-title: "Hosting a site with Hugo and Aws - Part 1"
-date: 2018-06-09T16:00:17+02:00
-draft: true
+title: "Hosting Operational Dev.com - Part 1"
+date: 2018-05-19T09:00:17+02:00
+draft: false
 ---
 
-I figured what better topic to start off with on operationaldev.com than how the site is built and automatically deployed.
+Right before we setup any hosting, we actually need something to host right? Previously I had used wordpress, but it's a bit complex and has way more functionality than I need. Enter [Hugo](https://gohugo.io/). Hugo is a open source framework for generating websites. It's really easy to use and it makes the automation part of building and deploying a blog really easy. 
 
-<h2>CMS/Framework</h2>
-
-Previously, I had setup a site using wordpress. And while wordpress is an awesome product, I found it to be overkill and have a lot more options and features than I needed. Especially for a small blog or static website, it just seemed a little bloated (ED: Wordpress is pretty awesome as a genral CMS). When looking for something easy and simple, I stumbled apon <a href="https://hugoio.io/">Hugo</a>. With Hugo there is no need for complex web server configurations (php etc) or database (mysql/mariadb) setups. For a bigger, more complex site, wordpress would probably be a better choice but for a site as simple as this, Hugo is perfect.
-
-<h3>Getting started with Hugo</h3>
-
-There are a few different options for installing (see https://gohugo.io/getting-started/installing/), but on Mac, I recommend homebrew.
+There are a few different options for installing (see <https://gohugo.io/getting-started/installing/>), but on Mac, I recommend homebrew.
 
 
-To install:
-<pre><code>brew install hugo
-</code></pre>
+To install Hugo:
+```bash
+brew install hugo
+```
 
 To verify that it has installed correctly:
-<pre><code>hugo version
-</code></pre>
+```bash
+hugo version
+```
 
-You are now ready to go ahead and create your site.
+Pretty easy, you are now ready to go ahead and start creating your site.
 
 To create a site:
-<pre><code>hugo new site mywebsite
-</code></pre>
+```bash
+mdkir blog
+cd blog
+hugo new site mywebsite
+```
 
 This will make a folder with a skeleton structure of your website.
 
-Next you will need a theme. To checkout all the themes available, go to https://themes.gohugo.io/
+Next you will need a theme. To checkout all the themes available, go to <https://themes.gohugo.io/>
 
-Once you have a theme that you like, add your theme using the following:
-<pre><code>git init
+Once you have found a theme you like, add your theme to your site using the following:
+```bash
+git init
+
+git submodule add <git url> themes/<theme name>;
+
+echo 'theme = "<theme>"' >>  config.toml
+```
+
+For example, for Operational Dev we used Beautiful Hugo:
+
+```bash
+git init
 
 git submodule add https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo;
 
 echo 'theme = "beautifulhugo"' >> config.toml
-</code></pre>
+```
 
-And you're ready to go. To checkout your new site run:
-<pre><code>hugo server</code></pre>
+And that is it. You're now ready to go. To checkout your new site run:
+```bash
+hugo server
+```
 
-and browse to the location it gives you (should be http://localhost:1313)
+And now browse to the location it gives you (should be <http://localhost:1313>)
 
-My editor of choice thus far has been vim (ED: vim for life) which I've used to build all of the current content.
+To generate some content you can use the built the Hugo command line:
+```bash
+hugo new post/mypost.md
+```
+
+You can now edit mypost.md with the text editor of your choice.
+
 
 In the next post, we'll look at how we deploy our site. 
