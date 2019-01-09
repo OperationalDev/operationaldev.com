@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://operationaldev.com/post/hosting-part1/</loc>
+    <lastmod>2018-05-18T09:00:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/post/hosting-overview/</loc>
+    <lastmod>2018-05-13T16:00:17+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://operationaldev.com/about/</loc>
     <lastmod>2018-05-09T15:50:12+02:00</lastmod>
   </url>
@@ -10,6 +20,12 @@
   <url>
     <loc>https://operationaldev.com/post/welcome/</loc>
     <lastmod>2018-05-09T15:20:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/aws/</loc>
+    <lastmod>2018-05-13T16:00:17+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -24,20 +40,56 @@
   </url>
   
   <url>
+    <loc>https://operationaldev.com/tags/github/</loc>
+    <lastmod>2018-05-13T16:00:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/hosting/</loc>
+    <lastmod>2018-05-18T09:00:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/hugo/</loc>
+    <lastmod>2018-05-18T09:00:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/hugoio/</loc>
+    <lastmod>2018-05-18T09:00:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://operationaldev.com/</loc>
-    <lastmod>2018-05-09T15:50:12+02:00</lastmod>
+    <lastmod>2018-05-18T09:00:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://operationaldev.com/post/</loc>
-    <lastmod>2018-05-09T15:20:04+02:00</lastmod>
+    <lastmod>2018-05-18T09:00:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://operationaldev.com/tags/</loc>
-    <lastmod>2018-05-09T15:20:04+02:00</lastmod>
+    <lastmod>2018-05-13T16:00:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/terraform/</loc>
+    <lastmod>2018-05-13T16:00:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://operationaldev.com/tags/travis/</loc>
+    <lastmod>2018-05-13T16:00:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   

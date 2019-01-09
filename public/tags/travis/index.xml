@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travis on Operational Dev</title>
+    <link>https://operationaldev.com/tags/travis/</link>
+    <description>Recent content in Travis on Operational Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>operationaldev@gmail.com (Automationeering)</managingEditor>
+    <webMaster>operationaldev@gmail.com (Automationeering)</webMaster>
+    <lastBuildDate>Sun, 13 May 2018 16:00:17 +0200</lastBuildDate>
+    
+	<atom:link href="https://operationaldev.com/tags/travis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How we build and host Operational Dev</title>
+      <link>https://operationaldev.com/post/hosting-overview/</link>
+      <pubDate>Sun, 13 May 2018 16:00:17 +0200</pubDate>
+      <author>operationaldev@gmail.com (Automationeering)</author>
+      <guid>https://operationaldev.com/post/hosting-overview/</guid>
+      <description>I figured the best topic to start with would be how we automatically build and deploy the Operationaldev.com blog. As the blog is all automation, surely we don&amp;rsquo;t build it using handraulics.
+To build our blog, we use the following components:
+ vim - editing content (Ed: If you saw bob use vim, you would recommend he does not use vim) Hugo - framework for building websites AWS - our hosting provider Terraform - automate the build of all the components used to host this site Travis CI - CI tool we use to automatically push changes Github - source control  Over the next four posts we will cover in detail how we use each of these tools to bring you this blog.</description>
+    </item>
+    
+  </channel>
+</rss>

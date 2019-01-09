@@ -13,11 +13,11 @@ For hosting, we will be using the following AWS components:
 - Cloudfront as our CDN
 - Route53 for DNS hosting
 - ACM for a SSL certificate
-- Terraform for automating the setup of the the above components
+- Terraform for automating the setup of the above components
 
-Why Terraform? Well who wants to go and fiddle around in the AWS console with settings to try and setup their static site. Also lots of people use terraform with AWS so we can mostly just copy/pasta.
+Why Terraform? Well who wants to go and fiddle around in the AWS console with settings to try and setup their static site. And in 6 months time, you'll have no clue how you did it. Trust me. Also lots of people use terraform with AWS so we can mostly just copy/pasta.
 
-Update: I've written a terraform module that does builds the full static site with DNS and SSL (github link). I will unpack this module in a future post.
+Update: I've written a terraform module that does builds the full static site with DNS and SSL <a href="https://github.com/OperationalDev/aws_static_website">aws_static_website</a>. I will unpack this module in a future post.
 
 <h3>prerequisites</h3>
 
@@ -45,7 +45,7 @@ module "operationaldev_website" {
 You should now be ready to build your hosting platform.
 
 <h3>Deployment Build</h3>
-To run your deployment you will need to do the following:
+To run your terraform code, you will need to do the following:
 
 Export your AWS access and secret key:
 <pre><code>
@@ -70,8 +70,9 @@ terraform plan
 terraform apply -auto-approve
 </code></pre>
 
-And magic, your site will now be setup. 
+And magic, your site hosting will begin building. The plan should take about
+2 minutes to run, depending on how AWS ACM feels that day.
 
-Note: It does take about 15 minutes for cloudfront to be deployed to all regions and for the certificate to be issued, so be patient.
+Note: It does take about 15 minutes for cloudfront to be deployed to all regions, so be patient.
 
-Now all you need to do is upload your code to your website. I do this using the aws cli. In future, I will probably automate this with travis.
+Now all you need to do is upload your code to your website which I will cover in the next post.

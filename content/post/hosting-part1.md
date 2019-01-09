@@ -67,4 +67,4 @@ hugo new post/mypost.md
 You can now edit mypost.md with the text editor of your choice.
 
 
-In the next post, we'll look at how we deploy our site. 
+In the next post, we'll look at how we host our site. 

@@ -12,4 +12,4 @@ Automation Engineer more on the Ops side of things that enjoys solving infrastru
 Steve
 -----
 
-Automation Engineer more on the Dev side of things (Ed: but surprisingly knows lots of infrastructure stuff too). Master of all programming languages that require indentation or that don't start with the letters PHP. Also cannot contain himself when it comes to kubernetes and has been known to run a k8s environment that works for everything that isn't Microsoft SQL Server
+Automation Engineer more on the Dev side of things (Ed: but surprisingly knows lots of infrastructure stuff too). Master of all programming languages that require indentation or that don't start with the letters PHP. Also cannot contain himself when it comes to Kubernetes and has been known to run a k8s environment that works for everything that isn't Microsoft SQL Server

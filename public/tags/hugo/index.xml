@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Operational Dev</title>
-    <link>https://operationaldev.com/post/</link>
-    <description>Recent content in Posts on Operational Dev</description>
+    <title>Hugo on Operational Dev</title>
+    <link>https://operationaldev.com/tags/hugo/</link>
+    <description>Recent content in Hugo on Operational Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>operationaldev@gmail.com (Automationeering)</managingEditor>
     <webMaster>operationaldev@gmail.com (Automationeering)</webMaster>
     <lastBuildDate>Fri, 18 May 2018 09:00:17 +0200</lastBuildDate>
     
-	<atom:link href="https://operationaldev.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://operationaldev.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -32,16 +32,6 @@ There are a few different options for installing (see https://gohugo.</descripti
       <description>I figured the best topic to start with would be how we automatically build and deploy the Operationaldev.com blog. As the blog is all automation, surely we don&amp;rsquo;t build it using handraulics.
 To build our blog, we use the following components:
  vim - editing content (Ed: If you saw bob use vim, you would recommend he does not use vim) Hugo - framework for building websites AWS - our hosting provider Terraform - automate the build of all the components used to host this site Travis CI - CI tool we use to automatically push changes Github - source control  Over the next four posts we will cover in detail how we use each of these tools to bring you this blog.</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Operational Dev</title>
-      <link>https://operationaldev.com/post/welcome/</link>
-      <pubDate>Wed, 09 May 2018 15:20:04 +0200</pubDate>
-      <author>operationaldev@gmail.com (Automationeering)</author>
-      <guid>https://operationaldev.com/post/welcome/</guid>
-      <description>Welcome to operationaldev.com! For the longest time I&amp;rsquo;ve wanted to create a blog but in the words of Top Gear, I&amp;rsquo;ve been ambitious but rubbish. Hopefully this attempt will go better. Also this time I&amp;rsquo;ve got a little help from my good friend Steve.
-By day, I&amp;rsquo;m an engineer tasked with automating infrastructure builds and deployments as well as building tooling to make the lives of others easier (Ed: And sharing your winning personality of course).</description>
     </item>
     
   </channel>
